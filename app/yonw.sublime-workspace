@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"tools",
+				"tools-versions"
+			],
+			[
+				"eac",
+				"each	$.each()"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"cs",
+				"css	.css() - multiple"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"app",
+				"append	.append()"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"wra",
+				"wrapAll	.wrapAll()"
+			],
+			[
+				"appe",
+				"appendTo	.appendTo()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"remo",
+				"remove	.remove()"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass()"
+			],
+			[
+				"togle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"mod",
+				"verbose_module	AngularJS"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"html",
+				"html	.html"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"ce",
+				"centralnidio"
+			],
+			[
+				"yoo",
+				"yootheme"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"uk",
+				"uk-snippet3	UIkit snippet"
+			],
+			[
+				"bs",
+				"bs3-navbar	bs3-navbar"
+			],
+			[
+				"bs3-c",
+				"bs3-container	bs3-container"
+			],
+			[
+				"uk-i",
+				"uk-hidden-small	UIkit class"
+			],
+			[
+				"ul",
+				"ul	Tag"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"r",
+				"rection"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WESTUM/yonw/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 10692,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/nw.sublime-build",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 207.0,
+		"history":
+		[
+			"show_scope_name",
+			"print(view.syntax_name(view.sel()[0].begin()))",
+			"view.run_command(\"example\")",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/WESTUM/yonw",
+		"/D/WESTUM/yonw/app"
+	],
+	"file_history":
+	[
+		"/D/WESTUM/yonw/app/main-full.js",
+		"/D/WESTUM/yonw/app/style.css",
+		"/D/WESTUM/native/app/ran.js",
+		"/D/WESTUM/yonw/app/package.json",
+		"/D/WESTUM/yonw/Gruntfile.js",
+		"/D/WESTUM/yonw/app/index-full.html",
+		"/D/WESTUM/native/app/package.json",
+		"/D/WESTUM/yonw/package.json",
+		"/D/WESTUM/ekspres/ekspres/views/layout.jade",
+		"/D/WESTUM/ekspres/ekspres/views/index.jade",
+		"/D/WESTUM/ekspres/ekspres/routes/index.js",
+		"/D/WESTUM/ekspres/ekspres/app.js",
+		"/D/WESTUM/node-webkit-app/Gruntfile.js",
+		"/D/WESTUM/native/app/shell.js",
+		"/D/WESTUM/myNodeWebKitApps-master/myNodeWebKitApps-master/diskDBApp/package.json",
+		"/D/WESTUM/replaceme/replaceme/bin/replaceme.js",
+		"/D/WESTUM/replaceme/replaceme/test.txt",
+		"/D/WESTUM/modul/node_modules/cute-files/cute-files.js",
+		"/D/WESTUM/replaceme/replaceme/lib/main.js",
+		"/D/WESTUM/replaceme/replaceme/lib/replace.js",
+		"/D/WESTUM/modul/node_modules/cute-files/frontend/index.html",
+		"/D/WESTUM/modul/node_modules/cute-files/frontend/assets/js/script.js",
+		"/D/WESTUM/shell/lib/tools-versions.js",
+		"/D/WESTUM/shell/package.json",
+		"/D/WESTUM/myNodeWebKitApps-master/myNodeWebKitApps-master/diskDBApp/Gulpfile.js",
+		"/D/WESTUM/shell/example/tools-versions_example.js",
+		"/D/WESTUM/shell/.gitignore",
+		"/D/WESTUM/shell/README.md",
+		"/D/WESTUM/myNodeWebKitApps-master/myNodeWebKitApps-master/diskDBApp/index.html",
+		"/D/WESTUM/shell/.git/config",
+		"/D/WESTUM/tools-v/lib/tools-v.js",
+		"/D/WESTUM/shell/index.html",
+		"/D/WESTUM/shell/shell.js",
+		"/D/WESTUM/toolsv/src/lib/toolsv.js",
+		"/D/WESTUM/toolsv/src/package.json",
+		"/D/WESTUM/tools-v/test/tools-v_test.js",
+		"/D/WESTUM/toolsv/src/README.md",
+		"/D/WESTUM/toolsv/src/lib/main.js",
+		"/D/WESTUM/toolsv/src/bin/toolsv",
+		"/D/WESTUM/toolsv/package.json",
+		"/D/WESTUM/toolsv/bin/toolsv.js",
+		"/D/WESTUM/toolsv/lib/main.js",
+		"/D/WESTUM/toolsv/lib/toolsv.js",
+		"/D/WESTUM/magento-plan.txt",
+		"/D/WESTUM/app-frontendtools/package.json",
+		"/D/WESTUM/app-frontendtools/README.md",
+		"/C/Users/win7/.ssh/github_rsa.pub",
+		"/D/WESTUM/app-frontendtools/.README",
+		"/C/angular/app/index.html",
+		"/C/Users/win7/Desktop/fe.txt",
+		"/C/Users/win7/Desktop/linkedin/stan-uslovi.txt",
+		"/D/linkedincookies",
+		"/C/angular/package.json",
+		"/C/angular/bower.json",
+		"/C/angular/.travis.yml",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/configuration.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/custom 2.css",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/system.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/wp-config 2.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/custom.css",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/D/BAZE/webwp_59171412284770.sql",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/wp-config 3.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/template 2.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/template.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/index 2.html",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/template 3.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/index 3.html",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/_post.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/forum.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/_posts.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/popup.php",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/favicon.ico",
+		"/C/cvangular/app/scripts/app.js",
+		"/C/cvangular/app/styles/main.scss",
+		"/C/cvangular/app/index.html",
+		"/C/cvangular/app/scripts/main.js",
+		"/C/cvangular/app/indexp.html",
+		"/C/cvangular/app/views/main.html",
+		"/C/cvangular/Gruntfile.js",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/filmovizija.css",
+		"/C/cvangular/app/scripts/zip.js",
+		"/C/cvangular/bower.json",
+		"/C/edge/bower.json",
+		"/C/cv/app/index.html",
+		"/C/edge/app/index.html",
+		"/C/cvangular/app/styles/zip.css",
+		"/C/cvangular/package.json",
+		"/C/cvangular/Gruntfile2.js",
+		"/C/edge/Gruntfile.js",
+		"/C/edge/package.json",
+		"/C/cvangular/learn.txt",
+		"/C/cvangular/.git/config",
+		"/C/angular/.git/config",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/main 2.html",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/main.html",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/config",
+		"/C/Users/win7/AppData/Local/Temp/fz3temp-1/post-receive",
+		"/C/Users/win7/Downloads/gun.htm",
+		"/C/Users/win7/Downloads/gun_files/gun.js",
+		"/C/Users/win7/Documents/jsfiddle/index.html",
+		"/C/edge/app/scripts/pricesearch.js",
+		"/C/edge/app/styles/gridtoggle.scss",
+		"/C/edge/readme.md",
+		"/C/edge/app/styles/responsive.scss",
+		"/C/edge/app/styles/_settings.scss",
+		"/D/CV/Hello.My-Name-Is.doc",
+		"/C/edge/src/css/pricesearch.min.css",
+		"/C/edge/app/scripts/vendor/colorbox.css",
+		"/C/edge/app/styles/pricesearch.scss",
+		"/C/edge/app/scripts/images.json",
+		"/C/wamp/www/get/index.php",
+		"/C/Users/win7/Downloads/first do it.txt",
+		"/D/CV/incsub/incsub.html",
+		"/D/CV/incsub/sass/screen.scss",
+		"/D/SOCIALICONS/js/rrssb.js",
+		"/D/SOCIALICONS/indexjs.html",
+		"/D/CV/incsub/sass/_settings.scss",
+		"/D/SOCIALICONS/bower_components/RRSSB/js/rrssb.js",
+		"/D/CV/incsub/css/stylesheets",
+		"/D/CV/incsub/config.rb",
+		"/D/CV/incsub/.Gitignore",
+		"/D/CV/incsub/sass/ie.scss",
+		"/D/CV/incsub/sass/print.scss"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\angular\\app\\styles",
+			"C:\\wamp\\www\\simf",
+			"C:\\wamp\\www\\testkit"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input[type=submit]:hover",
+			"social",
+			"items-thumb",
+			"<div",
+			"background: \n  \n ",
+			"url(data100%,",
+			"(?<=data)(.*)(?=100\\%,)",
+			"background:",
+			"100% 100%,",
+			":\"textures/",
+			"=\"textures/",
+			":\"textures/",
+			"=\"textures/",
+			"</div>",
+			"background: \n  \n ",
+			"url(data100%,",
+			"(?<=data)(.*)(?=100\\%,)",
+			"100% 100%,",
+			"background:",
+			"cssm",
+			"moch",
+			"replace",
+			".modal-open",
+			"\"",
+			"close",
+			"itemlist",
+			"clear",
+			"ico_itemlist",
+			"control_button",
+			"ico_itemli",
+			"img_sprite_moon",
+			"itemlist",
+			"photo",
+			"foto",
+			"grid",
+			"img_sprite_grid",
+			".img_sprite_grid",
+			"ico_itemlist",
+			"popup",
+			"rrssbInit",
+			"page--styleguide",
+			"page--styleguide ",
+			"18490 error peerinvalid Peer",
+			"mongodb-win32...2.x.x",
+			"../",
+			"placeholder=\"Textarea text\"",
+			"placeholder=\"Text input\"",
+			"dizajn",
+			"mocha",
+			"config.php",
+			"/installer",
+			"apc",
+			"ssl",
+			"open",
+			"show_scope_name",
+			"pleasurazy",
+			"html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n <div",
+			"background:",
+			"",
+			"background: \\n",
+			"100% 100%, \\n",
+			":\"http://keithclark.co.uk/labs/css3-fps-new/textures/",
+			"=\"http://keithclark.co.uk/labs/css3-fps-new/textures/",
+			":\"http://keithclark.co.uk/labs/css3-fps-new/textures/",
+			"=\"http://keithclark.co.uk/labs/css3-fps-new/textures/",
+			"</div> \\n",
+			"background:",
+			"",
+			"100% 100%, \\n",
+			"background: \\n",
+			"'",
+			"page--about",
+			"npm uninstall -g ",
+			"mongodb-win32-i386-2.6.1",
+			"",
+			"uikit"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/WESTUM/yonw/Gruntfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9586,
+								9578
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6064.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.437651604011,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 254.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "yonw.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

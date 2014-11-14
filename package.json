@@ -1,0 +1,36 @@
+{
+  "name": "yonw",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/easingthemes/yonw",
+  "bugs": "https://github.com/easingthemes/yonw/issues",
+  "author": {
+    "name": "Dragan Filipović",
+    "email": "",
+    "url": "https://github.com/easingthemes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/easingthemes/yonw.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "appjs": "0.0.20",
+    "appjs-win32": "0.0.19",
+    "concat-files": "~0.1.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-compress": "^0.10.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-rename": "0.0.3",
+    "load-grunt-tasks": "^0.6.0",
+    "shelljs": "^0.3.0",
+    "time-grunt": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
