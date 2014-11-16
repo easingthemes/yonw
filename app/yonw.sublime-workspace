@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"p",
 				"p	Tag"
 			],
@@ -62,10 +70,6 @@
 			[
 				"ba",
 				"background-position"
-			],
-			[
-				"ma",
-				"margin-top"
 			],
 			[
 				"pad",
@@ -154,10 +158,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"op",
@@ -260,18 +260,34 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "indexv01.html",
 			"settings":
 			{
-				"buffer_size": 1802,
+				"buffer_size": 1813,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/WESTUM/yonw/tmp/nw-sample-apps-master/file-explorer/node_modules/projects_path.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 199,
+				"buffer_size": 5958,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 193,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,23 +295,15 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 1820,
+				"buffer_size": 2563,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/WESTUM/yonw/.gitignore",
+			"file": "main-full.js",
 			"settings":
 			{
-				"buffer_size": 42,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/WESTUM/yonw/Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 10692,
+				"buffer_size": 1652,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,13 +344,28 @@
 	"expanded_folders":
 	[
 		"/D/WESTUM/yonw",
-		"/D/WESTUM/yonw/tmp",
-		"/D/WESTUM/yonw/tmp/nw-sample-apps-master",
-		"/D/WESTUM/yonw/tmp/nw-sample-apps-master/file-explorer",
-		"/D/WESTUM/yonw/tmp/nw-sample-apps-master/file-explorer/node_modules"
+		"/D/WESTUM/yonw/app",
+		"/D/WESTUM/gruntpeon"
 	],
 	"file_history":
 	[
+		"/D/WESTUM/yonw/app/indexv1.html",
+		"/D/WESTUM/gruntpeon/template/Theme/index.html",
+		"/D/WESTUM/yonw/app/css/font.css",
+		"/D/WESTUM/gruntpeon/template/Theme/assets/css/font-style.css",
+		"/D/WESTUM/gruntpeon/template/Documentation/open-sans-fontfacekit/web fonts/opensans_regular/stylesheet.css",
+		"/D/WESTUM/gruntpeon/template/Theme/assets/css/main.css",
+		"/D/WESTUM/yonw/app/node_modules/yez.js",
+		"/C/Users/win7/Downloads/yez-master/yez-master/node/index.js",
+		"/D/WESTUM/gruntpeon/yez-master/chrome/index.html",
+		"/C/Users/win7/Downloads/yez-master/yez-master/chrome/index.html",
+		"/D/WESTUM/yonw/app/node_modules/TaskRunner.js",
+		"/C/Users/win7/Downloads/yez-master/yez-master/node/TaskRunner.js",
+		"/D/WESTUM/yonw/tmp/nw-sample-apps-master/file-explorer/node_modules/projects_path.js",
+		"/C/Users/win7/Downloads/yez-master/yez-master/package.json",
+		"/D/WESTUM/yonw/package.json",
+		"/D/WESTUM/gruntpeon/grunt-devtools/grunt-plugin/tasks/devtools.js",
+		"/D/WESTUM/yonw/.gitignore",
 		"/D/WESTUM/yonw/tmp/nw-sample-apps-master/file-explorer/node_modules/address_bar.js",
 		"/D/WESTUM/yonw/app/main-full.js",
 		"/D/WESTUM/app-frontendtools/package.json",
@@ -357,7 +380,6 @@
 		"/D/WESTUM/yonw/app/package.json",
 		"/D/WESTUM/yonw/Gruntfile.js",
 		"/D/WESTUM/native/app/package.json",
-		"/D/WESTUM/yonw/package.json",
 		"/D/WESTUM/ekspres/ekspres/views/layout.jade",
 		"/D/WESTUM/ekspres/ekspres/views/index.jade",
 		"/D/WESTUM/ekspres/ekspres/routes/index.js",
@@ -454,27 +476,11 @@
 		"/C/Users/win7/Downloads/gun.htm",
 		"/C/Users/win7/Downloads/gun_files/gun.js",
 		"/C/Users/win7/Documents/jsfiddle/index.html",
-		"/C/edge/app/scripts/pricesearch.js",
-		"/C/edge/app/styles/gridtoggle.scss",
-		"/C/edge/readme.md",
-		"/C/edge/app/styles/responsive.scss",
-		"/C/edge/app/styles/_settings.scss",
-		"/D/CV/Hello.My-Name-Is.doc",
-		"/C/edge/src/css/pricesearch.min.css",
-		"/C/edge/app/scripts/vendor/colorbox.css",
-		"/C/edge/app/styles/pricesearch.scss",
-		"/C/edge/app/scripts/images.json",
-		"/C/wamp/www/get/index.php",
-		"/C/Users/win7/Downloads/first do it.txt",
-		"/D/CV/incsub/incsub.html",
-		"/D/CV/incsub/sass/screen.scss",
-		"/D/SOCIALICONS/js/rrssb.js",
-		"/D/SOCIALICONS/indexjs.html",
-		"/D/CV/incsub/sass/_settings.scss"
+		"/C/edge/app/scripts/pricesearch.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -491,6 +497,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Raleway",
+			"ra",
+			"-3",
 			"input[type=submit]:hover",
 			"social",
 			"items-thumb",
@@ -555,6 +564,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Open Sans",
+			"-4",
 			"\\n <div",
 			"background:",
 			"",
@@ -585,140 +596,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "indexv01.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1802,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1255,
-								1255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 446.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/WESTUM/yonw/tmp/nw-sample-apps-master/file-explorer/node_modules/projects_path.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1820,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1086,
-								1086
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 446.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/WESTUM/yonw/.gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 42,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								42,
-								42
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/WESTUM/yonw/Gruntfile.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 10692,
+						"buffer_size": 1813,
 						"regions":
 						{
 						},
@@ -731,12 +618,167 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5510.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3758,
+								3758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1416.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "main-full.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1198,
+								1165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -773,7 +815,7 @@
 		"cols":
 		[
 			0.0,
-			0.429852643872,
+			0.480727103599,
 			1.0
 		],
 		"rows":
@@ -785,7 +827,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 254.0
+		"height": 181.0
 	},
 	"output.find_results":
 	{
@@ -794,7 +836,7 @@
 	"project": "yonw.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -821,7 +863,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

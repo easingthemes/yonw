@@ -52,14 +52,6 @@
 
     <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12 col-lg-12">
-            <div class="dash-unit" style="height:auto; padding:0; background:none;">
-              <h3><ul id="addressbar" class="breadcrumb"  style="background:none;"></ul></h3>
-            </div>
-          </div>
-      </div>
-
       <div class="row">
 
         <div class="col-sm-4 col-lg-4">
@@ -70,10 +62,11 @@
           <img src="assets/img/logo.png" alt="Project" class="img-circle">
         </div><!-- /thumbnail -->
         <h1>Project title</h1>
-        
+        <h3><ul id="addressbar" class="breadcrumb"></ul></h3>
         <br>
         <input style="display:none;" id="fileDialog" type="file" nwdirectory />
         <div class="info-user">
+          <span aria-hidden="true" class="li_user fs1"></span>
           <span aria-hidden="true" class="li_settings fs1 browse"></span>
           <span aria-hidden="true" class="li_mail fs1"></span>
           <span aria-hidden="true" class="li_key fs1"></span>
@@ -98,7 +91,7 @@
           <div class="dash-unit">
           <dtitle>Output</dtitle>
           <hr>
-          <div id="output" ></div>
+          <div id="output"></div>
       </div>
         </div>
 
@@ -111,7 +104,7 @@
           <dtitle>Files</dtitle>
           <hr>
           <div id="systools">
-            <ul id="files"></ul>
+            <ul style="margin: 5px;" id="files"></ul>
           </div>
       </div>
     </div>

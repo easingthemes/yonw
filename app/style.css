@@ -5,7 +5,10 @@
 body {
   background-image: url('images/htmlbg.png')
 }
-
+#systools {
+  overflow: auto;
+  height: 220px;
+}
 .files {
   padding: 0;
   margin: 0;
@@ -45,8 +48,14 @@ body {
   -webkit-filter: invert(20%);
 }
 #output {
-  border: 1px solid red;
-  min-height: 100px; 
+  background-color: #000;
+  border: 1px solid #fff;
+  overflow: auto;
+  padding: 5px;
+  margin: 5px;
+  font-size: 10px;
+  font-family: monospace;
+  height: 220px;
 }
 .info {
   display: inline-block;
