@@ -31,7 +31,7 @@
   
     <!-- NAVIGATION MENU -->
     <div class="navbar-nav navbar-inverse navbar-fixed-top">
-        <div class="container">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -40,25 +40,25 @@
           </button>
           <a class="navbar-brand" href="#"><img src="assets/img/logo30.png" alt=""> Dashboard</a>
         </div> 
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
-              <li><a href="#"><i class="icon-folder-open icon-white"></i> Projects</a></li>
-              <li><a href="#"><i class="icon-user icon-white"></i> About</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+            <li><a href="#"><i class="icon-folder-open icon-white"></i> Projects</a></li>
+            <li><a href="#"><i class="icon-user icon-white"></i> About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
 
     <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12 col-lg-12">
-            <div class="dash-unit" style="height:auto; padding:0; background:none;">
-              <h3><ul id="addressbar" class="breadcrumb"  style="background:none;"></ul></h3>
-            </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <div class="dash-unit" style="height:auto; padding:0; background:none;">
+            <h3><ul id="addressbar" class="breadcrumb"  style="background:none;"></ul></h3>
           </div>
-      </div>
+        </div>
+      </div><!-- /row -->
 
       <div class="row">
 
@@ -66,66 +66,92 @@
           <div class="dash-unit">
             <dtitle>Project</dtitle>
             <hr>
-        <div class="thumbnail">
-          <img src="assets/img/logo.png" alt="Project" class="img-circle">
-        </div><!-- /thumbnail -->
-        <h1>Project title</h1>
-        
-        <br>
-        <input style="display:none;" id="fileDialog" type="file" nwdirectory />
-        <div class="info-user">
-          <span aria-hidden="true" class="li_settings fs1 browse"></span>
-          <span aria-hidden="true" class="li_mail fs1"></span>
-          <span aria-hidden="true" class="li_key fs1"></span>
+            <div class="thumbnail">
+              <img src="assets/img/logo.png" alt="Project" class="img-circle">
+            </div><!-- /thumbnail -->
+            <h1>Project title</h1>
+            
+            <br>
+            <input style="display:none;" id="fileDialog" type="file" nwdirectory />
+            <div class="info-user">
+              <span aria-hidden="true" class="li_settings fs1 browse"></span>
+              <span aria-hidden="true" class="li_mail fs1"></span>
+              <span aria-hidden="true" class="li_key fs1"></span>
+            </div>
+          </div>
         </div>
-      </div>
-        </div>
-
-    <div class="col-sm-4 col-lg-4">
-      <div class="dash-unit">
-          <dtitle>CMD tests</dtitle>
-          <hr>
-          <div class="cont">
-              <form>
-                  <input type="text" id="konzola" placeholder="Command Name">
-                  <input type="submit" id="ran" name="submit" value="Test">
-                </form>
-      </div>
-      </div>
-    </div>
 
         <div class="col-sm-4 col-lg-4">
           <div class="dash-unit">
-          <dtitle>Output</dtitle>
-          <hr>
-          <div id="output" ></div>
-      </div>
+            <dtitle>CMD tests</dtitle>
+            <hr>
+            <div class="cont">
+              <form>
+                <input type="text" id="konzola" placeholder="Command Name">
+                <input type="submit" id="ran" name="submit" value="Test">
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-lg-4">
+          <div class="dash-unit">
+            <dtitle>Output</dtitle>
+            <hr>
+            <div id="output" ></div>
+          </div>
         </div>
 
       </div><!-- /row -->
-    
-  <div class="row">
-   
-    <div class="col-sm-4 col-lg-4">
-      <div class="dash-unit">
-          <dtitle>Files</dtitle>
-          <hr>
-          <div id="systools">
-            <ul id="files"></ul>
-          </div>
-      </div>
-    </div>
 
-    <div class="col-sm-4 col-lg-4">
-      <div class="dash-unit">
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <div class="dash-unit">
+            <dtitle>tools-list</dtitle>
+            <hr>
+            <div id="tools-list" >
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="dash-unit">
+            <dtitle>Output2</dtitle>
+            <hr>
+            <div id="output2" ></div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <div class="dash-unit">
+            <dtitle>Output3</dtitle>
+            <hr>
+            <div id="output3" ></div>
+          </div>
+        </div>
+      </div><!-- /row -->
+
+      <div class="row">
+       
+        <div class="col-sm-4 col-lg-4">
+          <div class="dash-unit">
+            <dtitle>Files</dtitle>
+            <hr>
+            <div id="systools">
+              <ul id="files"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-lg-4">
+          <div class="dash-unit">
             <dtitle>Progress</dtitle>
             <hr>
             <div class="info-user">
-          <span aria-hidden="true" class="li_lab fs2"></span>
+              <span aria-hidden="true" class="li_lab fs2"></span>
+            </div>
+            <canvas id="canvas" width="300" height="300"></canvas>
+          </div>
         </div>
-        <canvas id="canvas" width="300" height="300">
-      </canvas></div>
-    </div>
 
         <div class="col-sm-4 col-lg-4">
 
@@ -135,38 +161,38 @@
             <div class="clockcenter">
               <digiclock>12:45:25</digiclock>
             </div>
-      </div>
+          </div>
 
-      <div class="half-unit">
+          <div class="half-unit">
             <dtitle>To Do List</dtitle>
             <hr>
             <div class="cont">
-          <p><bold>13</bold> | Pending Tasks</p>
-        </div>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;"><span class="sr-only">60% Complete</span>
-              
-          </div>
-        </div>
+              <p><bold>13</bold> | Pending Tasks</p>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                <span class="sr-only">60% Complete</span>
+              </div>
+            </div>
           </div>
 
         </div>
 
-  </div><!--/row -->
+      </div><!--/row -->
   
-  </div> <!-- /container -->
-  <div id="footerwrap">
-        <footer class="clearfix"></footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-lg-12">
+    </div> <!-- /container -->
+    <div id="footerwrap">
+      <footer class="clearfix"></footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-12">
             <p><img src="assets/img/logo.png" alt=""></p>
             <p>BYG tools - Bower Yeoman Grunt GUI Tools- Copyright 2014</p>
-            </div>
+          </div>
 
-          </div><!-- /row -->
-        </div><!-- /container -->   
-  </div><!-- /footerwrap -->
+        </div><!-- /row -->
+      </div><!-- /container -->   
+    </div><!-- /footerwrap -->
 
     <!-- Le javascript
     ================================================== -->

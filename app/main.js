@@ -1,107 +1,187 @@
-global.$ = $;
+;// semi-colon for concatenation and minification
+	var abar = require('address_bar');
+	var folder_view = require('folder_view');
+	var path = require('path');
+	var shell = require('nw.gui').Shell;
+	var sys = require('sys');
+	var exec = require('child_process').exec;
+	var spawn = require('child_process').spawn;
+	var fs = require('fs');
+	var gui = require('nw.gui');
 
-var abar = require('address_bar');
-var folder_view = require('folder_view');
-var path = require('path');
-var shell = require('nw.gui').Shell;
-var sys = require('sys');
-var exec = require('child_process').exec;
-var spawn = require('child_process').spawn;
-var fs = require('fs');
-var gui = require('nw.gui');
-//var yez = require('yez');
+	var projectDir = 'projects';
+	var cdProject = 'cd '+projectDir;
+	
 
-//app.listen(port);
+/** @namespace */
+var app = (function (app, $) {
 
-$(document).ready(function() {
+	
+	
+	/**
+	 * @property {Object} _app "inherits" app object via $.extend() at the end of this seaf 
+	 * (Self-Executing Anonymous Function)
+	 */
+	var _app = {
+		projectDir		: 'projects',
+		projectOpened	: false,
+		/**
+		 * @name init
+		 * @function
+		 * @description Master page initialization routine
+		 */
+		init: function () {
+			app.main.initUiCache();
+			app.main.initModules();
+			app.main.initFirst();
+			// init specific global components
+			app.main.init();
+		}
+	};
+	return $.extend(app, _app);
+}(window.app = window.app || {}, jQuery));
 
-  var folder = new folder_view.Folder($('#files'));
-  var addressbar = new abar.AddressBar($('#addressbar'));
+/**
+@class app.main
+*/
+(function (app, $) {
 
-  function chooseFile(name) {
-    var chooser = $(name);
-    chooser.change(function(evt) {
-      projectDir = $(this).val();
+	$cache = {
+		element : $('.element')
+	};
+	app.main = {
 
-      folder.open(projectDir);
-      addressbar.set(projectDir);
-    
-      cdProject = 'cd '+projectDir;
-      runCommand('cd', projectDir);
-      console.log(projectDir);
-    });
+		initUiCache : function() {
+			app.ui = {
+				main		: $('#main'),
+				secondary	: $('#secondary')
+			};
+		},
+		initModules : function() {
+			var folder = new folder_view.Folder($('#files'));
+			var addressbar = new abar.AddressBar($('#addressbar'));
 
-    chooser.trigger('click');  
-  }
+			folder.on('navigate', function(dir, mime) {
+				if (mime.type == 'folder') {
+					addressbar.enter(mime);
+				} else {
+					shell.openItem(mime.path);
+				}
+			});
 
-  $('.browse').on('click', function(event) {
-    event.preventDefault();
-    chooseFile('#fileDialog');
+			addressbar.on('navigate', function(dir) {
+				folder.open(dir);
+			});
+		},
+		initFirst : function() {
+			
+		},
+		init : function () {
 
-  });
-  $('#ran').on('click', function(event) {
-    event.preventDefault();
-    var newCmd = $('#konzola').val();
-    var fullCmd = cdProject +' && '+ newCmd;
-    //var fullCmd = newCmd;
-    console.log(fullCmd);
-    runCommand(fullCmd);
-  });
+			$('.browse').on('click', function(event) {
+				event.preventDefault();
+				app.chooseFile.init('#fileDialog');
+			});
+			$('#ran').on('click', function(event) {
+				event.preventDefault();
+				var newCmd = $('#konzola').val();
+				var fullCmd = cdProject +' && '+ newCmd;
+				console.log(fullCmd);
+				app.runCommand.init(fullCmd);
+			});
+			var parentList = $('#tools-list');
+			app.createList.init(parentList);
+		}
+	};
 
+}(window.app = window.app || {}, jQuery));
 
-  folder.on('navigate', function(dir, mime) {
-    if (mime.type == 'folder') {
-      addressbar.enter(mime);
-      //runCommand(myCmd);
-    } else {
-      shell.openItem(mime.path);
-    }
-  });
+/**
+@class app.chooseFile
+*/
+(function (app, $) {
 
-  addressbar.on('navigate', function(dir) {
-    folder.open(dir);
-  });
+	app.chooseFile = {
+		init : function (name) {
+			var chooser = $(name);
+			chooser.change(function(evt) {
+				projectDir = $(this).val();
+				folder.open(projectDir);
+				addressbar.set(projectDir);
+				cdProject = 'cd '+projectDir;
+				app.runCommand.init('cd', projectDir);
+			});
+			chooser.trigger('click');
+		}
+	};
 
-  
-  $('#home').on('click', function(event) {
-    event.preventDefault();
-    myCmd = 'node';
-    runCommand(myCmd);
-  });
+}(window.app = window.app || {}, jQuery));
 
-  function runCommand(name) {
-    exec(name,  function (error, stdout, stderr) {
-      console.log('stdout: ' + stdout);
-      console.log('stderr: ' + stderr);
-      $('#output').append(stdout +' <br /> '+ stderr);
-       if (error !== null) {
-        console.log('exec error: ' + error);
-      }
-    });
-    // var ls  = spawn(name, [arg]);
+/**
+@class app.createList
+*/
+(function (app, $) {
 
-    // ls.stdout.on('data', function (data) {
-    //   detached: true,
-    //   console.log('stdout: ' + data);
-    // });
+	app.createList = {
+		init : function (parent) {
 
-    // ls.stderr.on('data', function (data) {
-    //   console.log('stderr: ' + data);
-    // });
+			var list = {
+				'nodev' : 'node -v',
+				'npmv' : 'npm -v',
+				'npmv' : 'ruby -v',
+				'npmv' : 'yo -v',
+				'npmv' : 'grunt -v',
+				'npmv' : 'bower -v',
+				'npmv' : 'git -v'
+			};
+			var toolsList = $('<ul/>')
+				.addClass('tools-list');
 
-    // ls.on('close', function (code) {
-    //   console.log('child process exited with code ' + code);
-    // });
-  };
+			$.each(list, function(tool, command) {
+				var toolItem = $('<li/>')
+					.addClass(tool)
+					.appendTo(toolsList);
+				var toolLink = $('<a/>')
+					.appendTo(toolItem);
+				var tools = app.runCommand.output(command);
+				tools.stdout.on('data', function (data) {
+					toolLink.text(data);
+				});
+				tools.on('error', function (err) {
+				  toolLink.text(err);
+				});
+			});
 
+			parent.append(toolsList);	
+		}
+	};
 
-  function openCmd(name) {
-    var comands = spawn(name,  function (error, stdout, stderr) {
-      console.log('stdout: ' + stdout);
-      console.log('stderr: ' + stderr);
-       if (error !== null) {
-        console.log('exec error: ' + error);
-      }
-    });
-  }
+}(window.app = window.app || {}, jQuery));
+
+/**
+@class app.runCommand
+*/
+(function (app, $) {
+
+	app.runCommand = {
+		init : function (name) {
+			exec(name,  function (error, stdout, stderr) {
+				console.log('stdout: ' + stdout);
+				console.log('stderr: ' + stderr);
+				$('#output').append(stdout +' <br /> '+ stderr);
+				if (error !== null) {
+					console.log('exec error: ' + error);
+				}
+			});
+		},
+		output : function(name) {
+			return exec(name);
+		}
+	};
+
+}(window.app = window.app || {}, jQuery));
+
+// initialize app
+jQuery(window).load(function () {
+	app.init();
 });
